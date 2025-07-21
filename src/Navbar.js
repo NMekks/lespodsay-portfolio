@@ -1,0 +1,101 @@
+import { useState } from "react";
+
+const Navbar = () => {
+
+
+    const [searchBar, setSearchBar] = useState(false);
+
+    const handleClick = () => {
+        console.log('search icon clicked!!');
+    }
+
+  return (
+    <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <div className="logo-img">
+          <a href="/">
+            <img
+              src="img/logo-img.jpg"
+              alt="Lespodsay logo"
+              style={{
+                width: 100,
+                height: 100,
+                borderRadius: "50%",
+                border: "2px solid #ffffff",
+                boxShadow: "0px 0px 6px 5px rgba(173, 173, 173, 0.5)",
+              }}
+            />
+          </a>
+        </div>
+        <button
+          className="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" style={{ color: "#4d717d" }} />
+        </button>
+        <div
+          className="offcanvas offcanvas-end"
+          tabIndex={-1}
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div className="offcanvas-header">
+            <button
+              type="button"
+              className="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            />
+          </div>
+          <div className="offcanvas-body">
+            <ul className="navbar-nav mb-lg-2 mt-2 text-center">
+              <li className="nav-item">
+                <a className="nav-link" href="/">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/about">
+                  About
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="/illustrations">
+                  Illustrations
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://www.etsy.com/shop/lespodsayshop/?etsrc=sdt.html"
+                >
+                  Store
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/contact">
+                  Contact
+                </a>
+              </li>
+              <li>
+                <div id="search-icon" >
+                  <i className="fa-solid fa-search" onClick={ () => handleClick() }/>
+                </div>
+              </li>
+            </ul>
+            <div id="searchbox">
+              <input type="text" placeholder="Search" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar;
