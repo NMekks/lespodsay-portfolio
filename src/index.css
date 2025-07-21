@@ -35,20 +35,16 @@ textarea {
   font-family: 'Sofia Sans Condensed', sans-serif;
   font-size: 20px;
   background-color:rgb(247, 247, 247);
-  color:  rgb(240, 136, 56);
+  color:  rgb(0, 0, 0);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-width: 1.9px;
-  color:  rgb(240, 136, 56);
   border-left-width: 1.9px;
-  color:  rgb(240, 136, 56);
   border-right-width: 1.9px;
-  color:  rgb(240, 136, 56);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-top-width: 1.9px;
   box-sizing: border-box;
-  color:  rgb(240, 136, 56);
   cursor:text;
 }
 
@@ -288,6 +284,56 @@ footer #social-media-footer ul li:hover a .fa-x-twitter{
   display:inline-block;    
   margin-right: auto;    
   margin-left: auto;
+}
+
+/* contact form - contact page */
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-right: 50px;
+    margin-left: 0;
+}
+
+.contact-form input {
+    background-color: white;
+    width: 70%;
+    /* margin-left: 12%; */
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(148, 148, 148);
+    margin-bottom: 20px;
+   margin-left: 0%;
+}
+
+.contact-form textarea {
+    background-color: white;
+    width: 70%;
+    height: 50%;
+    /* margin-left: 12%; */
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: rgb(148, 148, 148);
+    margin-bottom: 25px;
+   
+    
+}
+
+.contact-form button {
+    background-color:#4d717d;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: 22px;
+    color: white;
+    padding: 3px 13px;
+}
+
+.contact-form button:hover {
+    opacity :80%;
+    cursor: pointer;
 }
 
 /*Media Queries*/

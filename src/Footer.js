@@ -22,10 +22,16 @@ const Footer = () => {
                     </a>
                     </li>
                     <li>
+                    <a href="https://bsky.app/profile/lespodsay.bsky.social">
+                        <i className="fa-brands fa-bluesky" />
+                    </a>
+                    </li>
+                    <li>
                     <a href="https://cara.app/lespodsay">
                         Cara
                     </a>
                     </li>
+                    
                 </ul>
                 </div>
                 <br />
