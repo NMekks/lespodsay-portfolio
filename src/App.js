@@ -5,8 +5,8 @@ import About from './About';
 import Illustrations from './Illustration';
 import Contact from './Contact';
 import Footer from './Footer';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
-import { HashRouter, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, HashRouter } from 'react-router-dom/cjs/react-router-dom.min';
+
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
       <div className="App">
         <Navbar />
         <div className="content">
-          {/* <Switch> */}
-          <Routes>
+          <Switch>
+          
             <Route exact path="/#">
               <Home />
             </Route>
@@ -32,8 +32,8 @@ function App() {
             <Route path="#/contact">
               <Contact />
             </Route>
-          </Routes>
-          {/* </Switch> */}
+          
+          </Switch>
           
         </div>
         <Footer />
