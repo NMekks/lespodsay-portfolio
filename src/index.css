@@ -10,6 +10,7 @@ body {
 p {
   line-height: 2;
   font-size: 17.2px;
+  /* text-align:justify; */
 }
 
 main {
@@ -59,7 +60,7 @@ textarea:focus {
 /*Banner*/
 
 #banner {
-  height: 55vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
