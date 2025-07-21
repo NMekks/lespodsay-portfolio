@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <div className="logo-img">
-          <a href="/">
+          <a href="lespodsay-portfolio/">
             <img
               src="img/logo-img.jpg"
               alt="Lespodsay logo"
@@ -54,18 +54,18 @@ const Navbar = () => {
           <div className="offcanvas-body">
             <ul className="navbar-nav mb-lg-2 mt-2 text-center">
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="lespodsay-portfolio/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <a className="nav-link" href="lespodsay-portfolio/about">
                   About
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/illustrations">
+                <a className="nav-link" href="lespodsay-portfolio/illustrations">
                   Illustrations
                 </a>
               </li>
@@ -78,7 +78,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <a className="nav-link" href="lespodsay-portfolio/contact">
                   Contact
                 </a>
               </li>
