@@ -5,15 +5,17 @@ import About from './About';
 import Illustrations from './Illustration';
 import Contact from './Contact';
 import Footer from './Footer';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import { BrowserRouter as Router, Route, Switch, HashRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
 function App() {
   return (
-    <Router>
+    // <Router>
+    <HashRouter>
       <div className="App">
         <Navbar />
         <div className="content">
-          <Switch>
+          {/* <Switch> */}
+          <Routes>
             <Route exact path="/">
               <Home />
             </Route>
@@ -29,13 +31,13 @@ function App() {
             <Route path="/contact">
               <Contact />
             </Route>
-
-          </Switch>
+          </Routes>
+          {/* </Switch> */}
           
         </div>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
     
   );
 }
