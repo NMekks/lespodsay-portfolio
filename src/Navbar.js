@@ -14,7 +14,9 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <div className="logo-img">
-          <a href="/">
+          <li className="nav-item">
+                <Link className="nav-link" to="/">Home</Link>
+          </li>
             <img
               src="img/logo-img.jpg"
               alt="Lespodsay logo"
