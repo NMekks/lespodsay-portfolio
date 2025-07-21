@@ -17,9 +17,9 @@ const About = () => {
                 </p>
                 <br />
                 <p>
-                Find me on: <a href="https://bsky.app/profile/lespodsay.bsky.social">BluSky</a> | <a href="https://www.twitter.com/lespodsay">Twitter</a> | <a href="https://www.instagram.com/lespodsay">Instagram</a> | <a href="https://www.tiktok.com/@lespodsay">Tiktok</a> |  <a href="https://cara.app/lespodsay">Cara</a>
+                Find me on: <a href="https://bsky.app/profile/lespodsay.bsky.social">BlueSky</a> | <a href="https://www.twitter.com/lespodsay">Twitter</a> | <a href="https://www.instagram.com/lespodsay">Instagram</a> | <a href="https://www.tiktok.com/@lespodsay">Tiktok</a> |  <a href="https://cara.app/lespodsay">Cara</a>
                 <br />
-                Email: <a href="mailto:lespodsay@gmail.com">lespodsay@gmail.com</a>
+                Want to commission me / work together? Email me on <a href="mailto:lespodsay@gmail.com">lespodsay@gmail.com</a>
                 </p>
                 
             </div>
