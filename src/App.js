@@ -7,6 +7,9 @@ import Contact from './Contact';
 import Footer from './Footer';
 import { BrowserRouter as Router, Route, Switch, HashRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
+//TO DEPLOY THE APPLICATIONS AFTER MAKING CHANGES YOU WANT TO PUBLISH ON GITHUB.IO
+//GO TO THE DEPLOY BRANCH AND RUN "npm run deploy" THID SHOULD DEPLOY ALL OF YOUR CHANGES
+//WHILE STILL BEING ABLE TO MAKE CHANGES LOCALLY WITHOUT CRASHING NEITHER YOUR LOCAL IMAGES NOR THE PUBLISHED WEBSITE
 
 function App() {
   return (
