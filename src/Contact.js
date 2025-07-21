@@ -11,10 +11,14 @@ const Contact = () => {
                 style={{
                 fontSize: 17.5,
                 padding: "150px 100px 150px 0px",
-                textAlign: "center"
+                textAlign: "justify",
+                marginLeft: 300,
+                marginRight: 300
                 }}
             >
-                Commissions/business inquiries:{" "}
+                If you'd like to contact me for any reason at all, do not hesitate to contact me on the following email
+                or send me a DM on social media!
+                <br />Commissions/business inquiries:{" "}
                 <a href="mailto:lespodsay@gmail.com">lespodsay@gmail.com</a>
             </p>
             </div>
