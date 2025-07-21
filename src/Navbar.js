@@ -54,18 +54,18 @@ const Navbar = () => {
           <div className="offcanvas-body">
             <ul className="navbar-nav mb-lg-2 mt-2 text-center">
               <li className="nav-item">
-                <a className="nav-link" href="lespodsay-portfolio/">
+                <a className="nav-link" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="lespodsay-portfolio/about">
+                <a className="nav-link" href="/about">
                   About
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="lespodsay-portfolio/illustrations">
+                <a className="nav-link" href="/illustrations">
                   Illustrations
                 </a>
               </li>
@@ -78,7 +78,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="lespodsay-portfolio/contact">
+                <a className="nav-link" href="/contact">
                   Contact
                 </a>
               </li>
