@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <div className="logo-img">
-          <a href="/">
+          <Link to="/">
             <img
               src="img/logo-img.jpg"
               alt="Lespodsay logo"
@@ -26,7 +26,7 @@ const Navbar = () => {
                 boxShadow: "0px 0px 6px 5px rgba(173, 173, 173, 0.5)",
               }}
             />
-          </a>
+          </Link>
         </div>
         <button
           className="navbar-toggler border-0"
