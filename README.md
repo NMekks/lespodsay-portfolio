@@ -1,1 +1,1 @@
-you can access lespodsay's art portfolio on https://nmekks.github.io/lespodsay-portfolio/#/
+You can access Lespodsay's art portfolio on this link [here](https://nmekks.github.io/lespodsay-portfolio/#/)
