@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -54,20 +55,14 @@ const Navbar = () => {
           <div className="offcanvas-body">
             <ul className="navbar-nav mb-lg-2 mt-2 text-center">
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Home
-                </a>
+                <Link className="nav-link" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
-                  About
-                </a>
+                <Link className="nav-link" to="/about">About</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/illustrations">
-                  Illustrations
-                </a>
+                <Link className="nav-link" to="/illustrations">Illustrations</Link>
               </li>
               <li className="nav-item">
                 <a
@@ -78,9 +73,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
-                  Contact
-                </a>
+                <Link className="nav-link" to="/contact">Contact</Link>
               </li>
               <li>
                 <div id="search-icon" >
