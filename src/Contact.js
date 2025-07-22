@@ -1,20 +1,27 @@
-import emailjs from "@emailjs/browser";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-const Contact = () => {
+export const Contact = () => {
+  const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      process.env.REACT_APP_SERVICE_ID,
-      process.env.REACT_APP_TEMPLATE_ID_CONTACT_FORM,
-      e.target,
-      process.env.REACT_APP_PUBLIC_KEY
-    );
-
-    //clear();
+    emailjs
+      .sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID_CONTACT_FORM, form.current, {
+        publicKey: process.env.REACT_APP_PUBLIC_KEY,
+      })
+      .then(
+        () => {
+          e.target.reset();
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
-// width="600px"
-// height="400px"
+
   return (
     <div>
       <div id="banner" />
@@ -50,26 +57,18 @@ const Contact = () => {
                         data-lightbox="artwork"
                         data-title="Genshin Impact Xiao by Lespodsay"
                     >
-                        <img src="img/magicalMiraiMiku2024.jpeg" style={{ width: 300 , height: "auto", borderRadius: 10, marginRight: 0, paddingLeft: 0 }}/>
+                        <img src="img/magicalMiraiMiku2024.jpeg" style={{ width: 250 , height: "auto", borderRadius: 10, marginRight: 0, paddingLeft: 0 }}/>
                     </a>
                 </div>
             </div>
           </div>
           <div className="contact-form">
-            <form onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail}>
               <input
                 type="text"
                 name="name"
                 id=""
-                placeholder="First Name"
-                autoComplete="off"
-                required=""
-              />
-              <input
-                type="text"
-                name="surname"
-                id=""
-                placeholder="Last Name"
+                placeholder="Your Name"
                 autoComplete="off"
                 required=""
               />
