@@ -288,6 +288,14 @@ footer #social-media-footer ul li:hover a .fa-x-twitter{
 
 /* contact form - contact page */
 
+.container.contact-page {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-right: 29%;
+  padding-top: 15px;
+  background-color:rgb(227, 223, 223)
+}
 
 .contact-form form{
     display: flex;

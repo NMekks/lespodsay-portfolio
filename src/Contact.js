@@ -48,7 +48,7 @@ export const Contact = () => {
           <a href="mailto:lespodsay@gmail.com">lespodsay@gmail.com</a>
         </p>
 
-        <div className="container contact-page" style={{display:"flex", justifyContent: "center", margin: "auto" }}>
+        <div className="container contact-page">
           <div className="side-image">
             <div className="image-container">
                 <div className="contact-page-image">
