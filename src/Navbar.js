@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import IllustrationSearch from "./IllustrationSearch";
 
 const Navbar = () => {
 
-
-    const [searchBar, setSearchBar] = useState(false);
+    const [showSearch, setShowSearch] = useState(false);
 
     const handleClick = () => {
         console.log('search icon clicked!!');
@@ -77,13 +77,13 @@ const Navbar = () => {
               </li>
               <li>
                 <div id="search-icon" >
-                  <i className="fa-solid fa-search" onClick={ () => handleClick() }/>
+                  <button className="searchButton" onClick={ () => setShowSearch(!showSearch) }>
+                    <i className="fa-solid fa-search" />
+                  </button>
+                  { showSearch && <div className="illustration-search-dropdown"><IllustrationSearch /> </div>}
                 </div>
               </li>
             </ul>
-            <div id="searchbox">
-              <input type="text" placeholder="Search" />
-            </div>
           </div>
         </div>
       </div>

@@ -70,21 +70,26 @@ textarea:focus {
   margin: 0;
 }
 
-
-#searchbox {
-  position: fixed;
-  right: 80px;
-  top: 40px;
-  width: 380px;
-  z-index: -1; /* Initially set z-index to -1 */
-  transition: 0.4s;
-  visibility: hidden;
- 
+#search-icon {
+  position: relative;
+}
+.illustration-search-dropdown {
+  position: absolute;
+  top: 40px; /* adjust as needed */
+  right: 0;
+  max-height: 300px;
+  width: 450px;
+  overflow-y: auto;
+  z-index: 1000;
 }
 
-#searchbox input {
-  height: 38px;
-  width: 100%;
+.illustration-search-dropdown input{
+  width: 450px;
+}
+
+.searchButton {
+  border: transparent;
+  background-color: transparent;
 }
 
 /*navigation*/
