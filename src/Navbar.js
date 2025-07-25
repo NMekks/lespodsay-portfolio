@@ -1,18 +1,11 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import IllustrationSearch from "./IllustrationSearch";
+
 
 const Navbar = () => {
 
-    const [showSearch, setShowSearch] = useState(false);
-
-    const handleClick = () => {
-        console.log('search icon clicked!!');
-    }
-
   return (
     <nav className="navbar navbar-expand-lg">
-      <div className="container-fluid">
+      <div className="container">
         <div className="logo-img">
           <Link to="/">
             <img
@@ -52,7 +45,7 @@ const Navbar = () => {
               aria-label="Close"
             />
           </div>
-          <div className="offcanvas-body">
+          <div className="offcanvas-body" style={{margin: "auto"}}>
             <ul className="navbar-nav mb-lg-2 mt-2 text-center">
               <li className="nav-item">
                 <Link className="nav-link" to="/">Home</Link>
@@ -75,14 +68,14 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">Contact</Link>
               </li>
-              <li>
+              {/* <li>
                 <div id="search-icon" >
-                  <button className="searchButton" onClick={ () => setShowSearch(!showSearch) }>
+                  <button className="searchIcon" onClick={ () => setShowSearch(!showSearch) }>
                     <i className="fa-solid fa-search" />
                   </button>
                   { showSearch && <div className="illustration-search-dropdown"><IllustrationSearch /> </div>}
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

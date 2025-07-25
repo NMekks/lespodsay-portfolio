@@ -28,18 +28,40 @@ const IllustrationSearch = () => {
 
   return (
     <div className="illustration-search">
-      <input
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder="Search..."
-      /><button>Search</button>
-      
-      <div>
-        {query && results.map((item, idx) => (
-          <div key={idx}>
-            <img src={item.imagePath} alt={item.title} />
-          </div>
-        ))}
+      <div className="container-fluid">
+        <form className="d-flex ms-5 me-5" role="search">
+          <input
+            class="form-control me-3 ms-5 p-4 rounded-5"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search..."
+            type="search"
+            aria-label="Search"
+            style={{ fontSize: "19px" }}
+          />
+          <button
+            className="btn btn-outline-secondary me-5 px-5 rounded-5"
+            type="submit"
+            style={{ fontSize: "17px" }}
+          >
+            Search
+          </button>
+        </form>
+      </div>
+
+      <div className="search-illustration-gallery">
+        {query &&
+          results.map((item, idx) => (
+            <div key={idx}>
+              <a
+                href={item.imagePath}
+                data-lightbox="artwork"
+                data-title={item.caption}
+              >
+                <img src={item.imagePath} alt={item.title} />
+              </a>
+            </div>
+          ))}
       </div>
     </div>
   );
