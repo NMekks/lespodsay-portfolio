@@ -98,17 +98,7 @@ const Home = () => {
                 <img src="img/KH namine artpiece.jpeg" />
                 </a>
             </div>
-            <a
-                href="img/Summer Namine artpiece.jpeg"
-                data-lightbox="artwork"
-                data-title="Summer Namine by Lespodsay"
-            ></a>
             </div>
-            <a
-            href="img/Summer Namine artpiece.jpeg"
-            data-lightbox="artwork"
-            data-title="Summer Namine by Lespodsay"
-            ></a>
             
         </main>
         </div>
