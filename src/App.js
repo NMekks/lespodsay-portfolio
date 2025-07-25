@@ -1,3 +1,7 @@
+// fix the search feature to remove the original illustrations and keept the filtered search ones
+// add a white circular bg behind logo, maybe it will look better,
+// fix media styling to make website responsive
+// use lightbox to display images
 
 import Navbar from './Navbar';
 import Home from './Home';
