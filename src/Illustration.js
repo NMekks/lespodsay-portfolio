@@ -15,9 +15,9 @@ const Illustrations = () => {
     <div className="illustration-container">
       <div id="banner" />
       <div class="container-fluid mt-5">
-        <div className="illustration-search-dropdown">
-          {<IllustrationSearch />}
-        </div>
+        
+          {<div className="illustration-search-dropdown"><IllustrationSearch /></div>}
+        
       </div>
       <div className="illustration-gallery">
         { illustrations.map((art, idx) => (

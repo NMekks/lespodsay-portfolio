@@ -1,30 +1,30 @@
 import { useState, useEffect } from "react";
 
 const IllustrationSearch = () => {
-  const [data, setData] = useState([]);
-  const [query, setQuery] = useState("");
-  const [results, setResults] = useState([]);
+  // const [data, setData] = useState([]);
+  // const [query, setQuery] = useState("");
+  // const [results, setResults] = useState([]);
 
-  useEffect(() => {
-    fetch("/illustrationsData.json")
-      .then((res) => res.json())
-      .then(setData);
-  }, []);
+  // useEffect(() => {
+  //   fetch("/illustrationsData.json")
+  //     .then((res) => res.json())
+  //     .then(setData);
+  // }, []);
 
-  useEffect(() => {
-    if (!query) {
-      setResults(data);
-      return;
-    }
-    setResults(
-      data.filter((item) =>
-        [item.title, item.caption, ...item.keywords]
-          .join(" ")
-          .toLowerCase()
-          .includes(query.toLowerCase())
-      )
-    );
-  }, [query, data]);
+  // useEffect(() => {
+  //   if (!query) {
+  //     setResults(data);
+  //     return;
+  //   }
+  //   setResults(
+  //     data.filter((item) =>
+  //       [item.title, item.caption, ...item.keywords]
+  //         .join(" ")
+  //         .toLowerCase()
+  //         .includes(query.toLowerCase())
+  //     )
+  //   );
+  // }, [query, data]);
 
   return (
     <div className="illustration-search">
@@ -49,7 +49,7 @@ const IllustrationSearch = () => {
         </form>
       </div>
 
-      <div className="search-illustration-gallery">
+      {/* <div className="search-illustration-gallery">
         {query &&
           results.map((item, idx) => (
             <div key={idx}>
@@ -62,7 +62,7 @@ const IllustrationSearch = () => {
               </a>
             </div>
           ))}
-      </div>
+      </div> */}
     </div>
   );
 };
