@@ -7,7 +7,6 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container">
         <div className="logo-img">
-          <div className="logo-img-background">
           <Link to="/">
             <img
               src="img/logo-img.jpg"
@@ -16,11 +15,11 @@ const Navbar = () => {
                 width: 100,
                 height: 100,
                 borderRadius: "50%",
-                border: "transparent"
+                border: "2px solid #ffffff",
+                boxShadow: "0px 0px 6px 5px rgba(173, 173, 173, 0.5)",
               }}
             />
           </Link>
-          </div>
         </div>
         <button
           className="navbar-toggler border-0"

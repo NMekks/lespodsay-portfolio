@@ -35,7 +35,7 @@ const Footer = () => {
                 </ul>
                 </div>
                 <br />
-                <p style={{ paddingBottom: "20px", margin:"auto", fontSize: "16px"}}>© 2025 Lespodsay, All Rights Reserved.</p>
+                <p style={{ paddingBottom: "20px", margin:"auto", fontSize: "16px"}}>© Lespodsay, All Rights Reserved.</p>
             </div>
             </footer>
     );
