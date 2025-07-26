@@ -27,22 +27,22 @@ export const Contact = () => {
       <div id="banner" />
 
       <div
-        id="business-inquiries"
         style={{ fontSize: 16, margin: "15px 0px 150px 150px" }}
       >
         <p
           style={{
             fontSize: 17.5,
-            padding: "150px 100px 150px 0px",
-            textAlign: "justify",
-            marginLeft: 300,
-            marginRight: 300,
-            marginBottom:50,
-            paddingBottom: 0,
+            marginTop: "10%",
+            marginLeft: "21%",
+            marginRight: "29%",
+            marginBottom: "2%",
+            textAlign: "justify"
           }}
         >
-          If you'd like to contact me for any reason at all, do not hesitate to
-          contact me on the following email or send me a DM on social media!
+          If you'd like to reach me for any reason at all, do not hesitate to
+          contact me on the following email, DM me on social media,
+          or send me a message on in the contact form below!
+          <br />
           <br />
           Commissions/business inquiries:{" "}
           <a href="mailto:lespodsay@gmail.com">lespodsay@gmail.com</a>
