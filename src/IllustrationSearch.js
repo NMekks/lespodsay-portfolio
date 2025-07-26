@@ -32,8 +32,8 @@ const IllustrationSearch = () => {
         <form className="d-flex ms-5 me-5" role="search">
           <input
             class="form-control me-3 ms-5 p-4 rounded-5"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            // value={query}
+            // onChange={(e) => setQuery(e.target.value)}
             placeholder="Search..."
             type="search"
             aria-label="Search"
