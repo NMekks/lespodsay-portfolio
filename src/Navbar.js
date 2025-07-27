@@ -15,8 +15,7 @@ const Navbar = () => {
                 width: 100,
                 height: 100,
                 borderRadius: "50%",
-                border: "2px solid #ffffff",
-                boxShadow: "0px 0px 6px 5px rgba(173, 173, 173, 0.5)",
+                border: "transparent"
               }}
             />
           </Link>
