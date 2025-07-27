@@ -9,7 +9,8 @@ const Illustrations = () => {
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/illustrationsData.json`)
       .then((res) => res.json())
-      .then(setData);
+      .then((data) => setIllustrations(data)
+    );
   }, []);
 
   useEffect(() => {
