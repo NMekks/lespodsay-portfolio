@@ -5,7 +5,7 @@ const Home = () => {
 
 
     useEffect(() => {
-        fetch("/homePageIllustrationsData.json")
+        fetch(`${process.env.PUBLIC_URL}/homePageIllustrationsData.json`)
           .then((res) => res.json())
           .then((data) => setHomeIllustrations(data));
       }, []);

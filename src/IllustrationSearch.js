@@ -6,7 +6,7 @@ const IllustrationSearch = () => {
   const [results, setResults] = useState([]);
 
   useEffect(() => {
-    fetch("/illustrationsData.json")
+    fetch(`${process.env.PUBLIC_URL}/illustrationsData.json`)
       .then((res) => res.json())
       .then(setData);
   }, []);

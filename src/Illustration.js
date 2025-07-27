@@ -5,7 +5,7 @@ const Illustrations = () => {
   const [illustrations, setIllustrations] = useState([]);
 
   useEffect(() => {
-    fetch("/illustrationsData.json")
+    fetch(`${process.env.PUBLIC_URL}/illustrationsData.json`)
       .then((res) => res.json())
       .then((data) => setIllustrations(data));
   }, []);
