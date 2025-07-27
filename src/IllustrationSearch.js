@@ -39,13 +39,13 @@ const IllustrationSearch = () => {
             aria-label="Search"
             style={{ fontSize: "19px" }}
           />
-          <button
+          {/* <button
             className="btn btn-outline-secondary me-5 px-5 rounded-5"
             type="submit"
             style={{ fontSize: "17px" }}
           >
             Search
-          </button>
+          </button> */}
         </form>
       </div>
 
