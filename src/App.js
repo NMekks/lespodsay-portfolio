@@ -1,4 +1,7 @@
-
+TOOD //add lightbox feature
+    //work on mobile responsiveness
+    //clean your code
+    
 import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
