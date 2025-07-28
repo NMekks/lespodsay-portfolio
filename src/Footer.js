@@ -2,9 +2,9 @@ const Footer = () => {
     return (
         <footer>
             
-            <div id="rightfooter" style={{ textAlign: "center", padding: "0 20px" }}>
+            <div id="rightfooter">
                 <h3 >Follow me on</h3>
-                <div id="social-media-footer" style={{marginRight: "2%"}}>
+                <div id="social-media-footer">
                 <ul>
                     <li>
                     <a href="https://www.instagram.com/lespodsay">
@@ -35,7 +35,7 @@ const Footer = () => {
                 </ul>
                 </div>
                 <br />
-                <p style={{ paddingBottom: "20px", margin:"auto", fontSize: "16px"}}>© Lespodsay, All Rights Reserved.</p>
+                <p>© Lespodsay, All Rights Reserved.</p>
             </div>
             </footer>
     );

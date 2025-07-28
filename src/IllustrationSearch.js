@@ -8,9 +8,9 @@ const IllustrationSearch = ( { query, setQuery }) => {
   return (
     <div className="illustration-search">
       <div className="container-fluid">
-        <form className="d-flex ms-5 me-5" role="search">
+        <form className="d-flex" role="search">
           <input
-            class="form-control me-3 ms-5 p-4 rounded-5"
+            class="form-control p-4 rounded-5"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search..."

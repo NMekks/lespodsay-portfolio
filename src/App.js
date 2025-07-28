@@ -1,4 +1,4 @@
-TOOD //add lightbox feature
+//TODO //add lightbox feature
     //work on mobile responsiveness
     //clean your code
     

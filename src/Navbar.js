@@ -5,18 +5,18 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg">
-      <div className="container">
+      <div className="container-fluid">
         <div className="logo-img">
           <Link to="/">
             <img
               src="img/logo-img.jpg"
               alt="Lespodsay logo"
-              style={{
-                width: 100,
-                height: 100,
-                borderRadius: "50%",
-                border: "transparent"
-              }}
+              // style={{
+              //   width: 100,
+              //   height: 100,
+              //   borderRadius: "50%",
+              //   border: "transparent"
+              // }}
             />
           </Link>
         </div>
@@ -32,11 +32,13 @@ const Navbar = () => {
         </button>
         <div
           className="offcanvas offcanvas-end"
+          style = {{ width: "80%"}}
           tabIndex={-1}
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div className="offcanvas-header">
+             <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Menu</h5>
             <button
               type="button"
               className="btn-close"
@@ -44,8 +46,8 @@ const Navbar = () => {
               aria-label="Close"
             />
           </div>
-          <div className="offcanvas-body" style={{margin: "auto"}}>
-            <ul className="navbar-nav mb-lg-2 mt-2 text-center">
+          <div className="offcanvas-body">
+            <ul className="navbar-nav flex-grow-1 pe-3">
               <li className="nav-item">
                 <Link className="nav-link" to="/">Home</Link>
               </li>
