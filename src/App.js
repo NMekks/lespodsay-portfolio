@@ -1,5 +1,7 @@
 //TODO //add lightbox feature
-    //work on mobile responsiveness
+      // work on tablet responsiveness
+      //fix offset and fix bottom margin for illustration page??? it doesnt show on the inspect tool but on actual mobile phones
+      //update artwork, change colour scheme, banner, and fonts
     //clean your code
     
 import Navbar from './Navbar';
