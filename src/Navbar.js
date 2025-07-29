@@ -38,10 +38,10 @@ const Navbar = () => {
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div className="offcanvas-header">
-             <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Menu</h5>
+             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
             <button
               type="button"
-              className="btn-close"
+              className="btn-close me-2"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             />
@@ -69,14 +69,6 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">Contact</Link>
               </li>
-              {/* <li>
-                <div id="search-icon" >
-                  <button className="searchIcon" onClick={ () => setShowSearch(!showSearch) }>
-                    <i className="fa-solid fa-search" />
-                  </button>
-                  { showSearch && <div className="illustration-search-dropdown"><IllustrationSearch /> </div>}
-                </div>
-              </li> */}
             </ul>
           </div>
         </div>

@@ -26,25 +26,13 @@ export const Contact = () => {
     <div>
       <div id="banner" />
 
-      <div
-        id="business-inquiries"
-        style={{ fontSize: 16, margin: "15px 0px 150px 150px" }}
-      >
-        <p
-          style={{
-            fontSize: 17.5,
-            textAlign: "justify",
-            marginLeft: "21%",
-            marginRight: "29%",
-            marginBottom:"3%",
-            marginTop: "8%"
-          }}
-        >
+      <div id="business-inquiries">
+        <p>
           If you'd like to reach me for any reason at all, do not hesitate to
           contact me on the following email, send me a DM on social media,
           or leave a message in the contact form below!
           <br />
-          Commissions/business inquiries:{" "}
+          Commissions / business inquiries:{" "}
           <a href="mailto:lespodsay@gmail.com">lespodsay@gmail.com</a>
         </p>
 
@@ -57,7 +45,7 @@ export const Contact = () => {
                         data-lightbox="artwork"
                         data-title="Genshin Impact Xiao by Lespodsay"
                     >
-                        <img src="img/magicalMiraiMiku2024.jpeg" style={{ width: 250 , height: "auto", borderRadius: 10, marginRight: 0, marginLeft: 20, paddingLeft: 0, marginTop: "5%" }}/>
+                        <img src="img/magicalMiraiMiku2024.jpeg" />
                     </a>
                 </div>
             </div>

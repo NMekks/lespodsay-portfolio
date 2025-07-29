@@ -152,18 +152,6 @@ nav ul {
   padding: 8px;
 }
 
-/* .btn {
-  color: white;
-  background-color: #789ca8;
-  border-color: #789ca8;
-}
-
-.btn:hover {
-  color: white;
-  background-color: #90acaf;
-  border-color: #90acaf;
-} */
-
 /*footer*/
 
 footer {
@@ -205,6 +193,7 @@ footer #social-media-footer ul {
   align-items: center;
   align-content: center;
   margin-right: 10%;
+  margin-bottom: 0%;
 }
 
 footer #social-media-footer ul li {
@@ -261,6 +250,7 @@ footer p {
 
 .gallery img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .gallery img:hover {
@@ -300,30 +290,22 @@ footer p {
   margin-right: auto;
   margin-left: auto;
 }
-/* 
-.search-illustration-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 5px;
-  line-height: 0;
-  column-count: 5;
-  column-gap: 5px;
-}
-
-.search-illustration-gallery img {
-  width: 100% !important;
-  height: auto !important;
-  border-radius: 5px;
-  margin-top: 5px;
-}
-.search-illustration-gallery {
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-} */
 
 /* contact form - contact page */
+
+#business-inquiries {
+  font-size: 16;
+  margin: 15px 0px 150px 150px;
+}
+
+#business-inquiries p {
+  font-size: 17.5;
+  text-align: justify;
+  margin-left: 21%;
+  margin-right: 29%;
+  margin-bottom: 3%;
+  margin-top: 8%;
+}
 
 .container.contact-page {
   display: flex;
@@ -347,27 +329,27 @@ footer p {
   background-color: white;
   width: 80%;
   font-size: 20px;
-  padding: 5px 15px;
   border-radius: 10px;
   border: 1px solid rgb(148, 148, 148);
-  margin-bottom: 20px;
-  margin-left: 0%;
+  margin-bottom: 5%;
+  margin-left: 4%;
 }
 
 .contact-form textarea {
   background-color: white;
   width: 80%;
   height: 50%;
-  /* margin-left: 12%; */
   padding: 5px 10px;
   border-radius: 10px;
   border-color: rgb(148, 148, 148);
-  margin-bottom: 25px;
+  border: 1px solid rgb(148, 148, 148);
+  margin-bottom: 5%;
+  margin-left: 4%;
 }
 
 .contact-form button {
   background-color: #4d717d;
-  border-radius: 8px;
+  border-radius: 10px;
   border-color: transparent;
   font-size: 22px;
   color: white;
@@ -375,8 +357,16 @@ footer p {
 }
 
 .contact-form button:hover {
-  opacity: 80%;
+  opacity: 70%;
   cursor: pointer;
+}
+
+.contact-page-image img {
+  width: 255px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-top: 3%;
 }
 
 /*Media Queries*/
@@ -405,7 +395,7 @@ footer p {
     height: 25vh;
   }
   footer p {
-    margin-top: 5%;
+    margin: auto;
   }
   .logo-img img {
     background-color: rgb(247, 247, 247);
@@ -416,52 +406,104 @@ footer p {
   }
   .container.home {
     width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 8px;
   }
-
   .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
     grid-gap: 5px;
   }
-
-  .gallery img {
-    width: 100%;
+  .container.about-page {
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 15%;
+  }
+  .About h2 {
+    margin-top: 8%;
+    margin-left: 8%;
+  }
+  .About p {
+    line-height: 1.7;
   }
   .illustration-search {
     margin: 0px 0px 15px 0px;
     padding: 0px;
   }
-
   .illustration-gallery {
     -moz-column-count: 2;
     -webkit-column-count: 2;
     column-count: 2;
+    padding: 5px;
+  }
+  #business-inquiries {
+    margin: auto;
+    margin-bottom: 10%;
+  }
+  #business-inquiries p {
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8%;
+    margin-top: 10%;
+  }
+  .container.contact-page {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(235, 231, 231);
+    border-radius: 10px;
+  }
+
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form input {
+    background-color: white;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid rgb(148, 148, 148);
+  }
+
+  .contact-form textarea {
+    font-size: 17px;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-color: rgb(148, 148, 148);
+    border: 1px solid rgb(148, 148, 148);
+  }
+
+  .contact-form button {
+    background-color: #4d717d;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 17px;
+    color: white;
+    padding: 3px 13px;
+    margin-bottom: 15%;
+  }
+
+  .contact-page-image img {
+    width: 170px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
   }
 }
-/* 
-@media (max-width: 575.98px) {
-  footer {
-    flex-direction: column;
-    text-align: center;
-  }
-  footer #left-footer {
-    flex: 1;
-    border-right: 0;
-    padding-left: 0;
-  }
 
-  footer #right-footer {
-    text-align: center;
-  }
-} */
-
-@media (min-width: 720px) {
+/* @media (min-width: 768px) {
   main {
     width: 100%;
   }
@@ -471,48 +513,5 @@ footer p {
   }
   .gallery img {
     width: 100%;
-  }
-}
-
-@media (max-width: 900px) {
-  nav ul {
-    display: none;
-  }
-
-  nav {
-    flex-direction: row-reverse; /* Reverse the order of items */
-    justify-content: flex-end; /* Align items to the end */
-    padding: 0 16px; /* Adjust padding for better spacing */
-  }
-
-  #menu-icon {
-    display: flex;
-  }
-
-  #slideout-menu {
-    display: block;
-  }
-
-  #searchbox {
-    display: none;
-  }
-  #logo-img {
-    left: 16px; /* Adjust left position for smaller screens */
-    transform: none; /* Remove horizontal centering */
-  }
-}
-
-/* @media (max-width: 1000px) {
-  .illustration-gallery {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
-  }
-}
-@media (max-width: 800px) {
-  .illustration-gallery {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
   }
 } */
