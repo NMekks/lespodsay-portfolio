@@ -1,11 +1,10 @@
-//TODO //enhnace lightbox feature, it's basic and it sucks
-      // work on tablet responsiveness
+//TODO // work on tablet responsiveness
       //fix offset and give it a better look
       //fix bottom margin for illustration page, it doesnt show on the inspect tool but theres a huge gap on actual mobile phones
-      //update artwork, change colour scheme, banner, and fonts
       //add some styling to navbar so user knows which page they're on when they enter the website for the first time
       //refresh the page when any of the navbar links are clicked and reclicked when youre on a page.
-      //clean your code
+      //update artwork, change colour scheme, banner, and fonts
+      // //clean your code
     
 import Navbar from './Navbar';
 import Home from './Home';
