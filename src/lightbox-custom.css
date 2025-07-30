@@ -1,9 +1,6 @@
 /* Dark overlay like Lightbox2 */
 .yarl__container {
   background-color: rgba(0, 0, 0, 0.83) !important;
-  
-  transition: opacity 4s ease;
-  opacity: 1;
 }
 
 /* White border around images */
@@ -12,6 +9,7 @@
   border-radius: 3px !important;
   max-height: 90vh !important;
   max-width: 90vw !important;
+  margin-bottom: 3.5%;
 }
 
 /* Navigation buttons styled like Lightbox2 */
@@ -23,14 +21,4 @@
 }
 .yarl__navigation_button:hover {
   opacity: 1;
-}
-
-
-/* Caption text */
-.yarl__captions_description {
-  font-size: 13px !important;
-  font-weight: bold !important;
-  color: #fff !important;
-  text-shadow: 0 1px 3px black;
-  padding: 10px;
 }
