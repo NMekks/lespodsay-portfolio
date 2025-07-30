@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import IllustrationSearch from "./IllustrationSearch";
-
+import Captions from "yet-another-react-lightbox/plugins/captions";
+import "./lightbox-custom.css";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import "./lightbox-custom.css"; // optional custom styles
@@ -61,6 +62,7 @@ const Illustrations = () => {
           src: art.imagePath,
           description: art.title,
         }))}
+        plugins={Captions}
       />
     </div>
   );
