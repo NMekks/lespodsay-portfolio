@@ -5,6 +5,7 @@ import "./lightbox-custom.css";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import "./lightbox-custom.css"; // optional custom styles
+import "yet-another-react-lightbox/plugins/captions.css";
 
 const Illustrations = () => {
   const [illustrations, setIllustrations] = useState([]);
@@ -60,7 +61,7 @@ const Illustrations = () => {
         close={() => setIndex(-1)}
         slides={(query ? results : illustrations).map((art) => ({
           src: art.imagePath,
-          description: art.title,
+          description: art.caption,
         }))}
         plugins={[Captions]}
       />
