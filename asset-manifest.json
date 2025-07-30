@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lespodsay-portfolio/static/css/main.e15204e6.css",
-    "main.js": "/lespodsay-portfolio/static/js/main.1c3a85a2.js",
+    "main.js": "/lespodsay-portfolio/static/js/main.f3af73cd.js",
     "static/media/namine banner 2.jpeg": "/lespodsay-portfolio/static/media/namine banner 2.1806bab0992387cf1114.jpeg",
     "index.html": "/lespodsay-portfolio/index.html",
     "main.e15204e6.css.map": "/lespodsay-portfolio/static/css/main.e15204e6.css.map",
-    "main.1c3a85a2.js.map": "/lespodsay-portfolio/static/js/main.1c3a85a2.js.map"
+    "main.f3af73cd.js.map": "/lespodsay-portfolio/static/js/main.f3af73cd.js.map"
   },
   "entrypoints": [
     "static/css/main.e15204e6.css",
-    "static/js/main.1c3a85a2.js"
+    "static/js/main.f3af73cd.js"
   ]
 }
