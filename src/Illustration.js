@@ -4,7 +4,6 @@ import Captions from "yet-another-react-lightbox/plugins/captions";
 import "./lightbox-custom.css";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import "./lightbox-custom.css"; // optional custom styles
 import "yet-another-react-lightbox/plugins/captions.css";
 
 const Illustrations = () => {
