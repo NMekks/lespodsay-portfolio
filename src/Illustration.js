@@ -62,7 +62,7 @@ const Illustrations = () => {
           src: art.imagePath,
           description: art.title,
         }))}
-        plugins={Captions}
+        plugins={[Captions]}
       />
     </div>
   );
