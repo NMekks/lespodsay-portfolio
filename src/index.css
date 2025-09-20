@@ -441,17 +441,31 @@ footer p {
     padding: 0px;
   }
   .illustration-gallery {
-    column-count: 2;
-    padding: 5px;
-    margin-bottom: 0 !important;
-    column-gap: 5px;
-    column-fill: auto; /* 👈 this is key */
+     column-count: 2;
+    column-width: 50%;          /* force two columns of ~50% each */
+    column-gap: 6px;
+    column-fill: auto;          /* avoid balancing which creates bottom gap */
+
+    /* avoid baseline whitespace artifacts */
+    line-height: 0;
   }
-  .illustration-gallery img {
-  break-inside: avoid;  /* avoids weird breaks */
-  display: inline-block;       /* removes inline spacing quirks */
-  margin-bottom: 5px;  /* consistent gap */
-}
+  .illustration-gallery .img {
+    display: inline-block;         /* keeps the mismatch look like before */
+    width: 100%;
+    box-sizing: border-box;
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 6px;
+    line-height: normal;
+    vertical-align: top;
+  }
+   .illustration-gallery img {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+  }
+
   .illustration-container .illustration-gallery {
     margin-bottom: 0px;
   }
