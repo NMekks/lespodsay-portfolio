@@ -452,7 +452,6 @@ footer p {
   .illustration-gallery {
     margin-bottom: 0 !important;
     column-count: 2;
-    column-fill: auto;
     display: block;
   }
   .illustration-container .illustration-gallery {
