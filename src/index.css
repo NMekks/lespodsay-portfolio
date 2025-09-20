@@ -261,6 +261,7 @@ footer p {
   margin-right: 5%;
   margin-left: 5%;
   margin-bottom: 2%;
+
 }
 
 .illustration-container .illustration-gallery {
@@ -441,34 +442,15 @@ footer p {
     padding: 0px;
   }
   .illustration-gallery {
-     column-count: 2;
-    column-width: 50%;          /* force two columns of ~50% each */
-    column-gap: 6px;
-    column-fill: auto;          /* avoid balancing which creates bottom gap */
-
-    /* avoid baseline whitespace artifacts */
-    line-height: 0;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    padding: 5px;
+    margin-bottom: 0 !important;
   }
-  .illustration-gallery .img {
-    display: inline-block;         /* keeps the mismatch look like before */
-    width: 100%;
-    box-sizing: border-box;
-    break-inside: avoid;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    margin-bottom: 6px;
-    line-height: normal;
-    vertical-align: top;
-  }
-   .illustration-gallery img {
-    display: block;
-    width: 100% !important;
-    height: auto !important;
-  }
-
   .illustration-container .illustration-gallery {
-    margin-bottom: 0px;
-  }
+  margin-bottom: 0px;
+}
   #business-inquiries {
     margin: auto;
     margin-bottom: 10%;
