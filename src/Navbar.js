@@ -37,11 +37,11 @@ const Navbar = () => {
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div className="offcanvas-header">
-             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <div className="offcanvas-header mt-3 ms-4 me-3">
+             <h5 class="offcanvas-title fs-2" id="offcanvasNavbarLabel">Menu</h5>
             <button
               type="button"
-              className="btn-close me-2"
+              className="btn-close"
               data-bs-dismiss="offcanvas"
               aria-label="Close"
             />

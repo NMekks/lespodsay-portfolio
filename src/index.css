@@ -92,7 +92,7 @@ nav {
 } */
 
 /* .offcanvas-body {
-  margin-left: 7%;
+  margin-right: 7%;
 } */
 
 /* .navbar-nav {
@@ -269,14 +269,16 @@ footer p {
 }
 
 .illustration-gallery {
-  margin-top: 5%;
-  line-height: 0;
+  margin: 0 auto;
   -webkit-column-count: 5;
   -webkit-column-gap: 0px;
+  -webkit-row-gap: 5px;
   -moz-column-count: 5;
   -moz-column-gap: 0px;
+  -moz-row-gap: 5px;
   column-count: 5;
   column-gap: 5px;
+  row-gap: 5px;
 }
 
 .illustration-gallery img {
@@ -390,6 +392,12 @@ footer p {
   }
   .navbar-nav a {
     text-align: start;
+  }
+
+  .offcanvas a {
+    padding: 2%;
+    margin-bottom: 2%;
+    font-size: 23px;
   }
   #banner {
     height: 25vh;
