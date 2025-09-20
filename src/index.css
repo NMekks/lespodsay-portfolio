@@ -431,6 +431,7 @@ footer p {
   .illustration-gallery {
     columns: 2;
     column-gap: 5px;
+    margin-bottom:5%;
   }
 
   .illustration-container .illustration-gallery {
