@@ -446,7 +446,7 @@ footer p {
     -webkit-column-count: 2;
     column-count: 2;
     padding: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0 !important;
   }
   .illustration-container .illustration-gallery {
   margin-bottom: 0px;
