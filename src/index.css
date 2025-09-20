@@ -438,7 +438,7 @@ footer p {
     line-height: 1.7;
   }
   .illustration-search {
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 20px 0px;
     padding: 0px;
   }
   .illustration-gallery {
@@ -446,8 +446,11 @@ footer p {
     -webkit-column-count: 2;
     column-count: 2;
     padding: 5px;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
   }
+  .illustration-container .illustration-gallery {
+  margin-bottom: 0px;
+}
   #business-inquiries {
     margin: auto;
     margin-bottom: 10%;
