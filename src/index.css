@@ -448,6 +448,10 @@ footer p {
     padding: 5px;
     margin-bottom: 0 !important;
   } */
+
+  .illustration-gallery {
+    column-count: 2;
+  }
   .illustration-container .illustration-gallery {
   margin-bottom: 0px;
 }
