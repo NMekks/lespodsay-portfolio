@@ -446,11 +446,14 @@ footer p {
     -webkit-column-count: 2;
     column-count: 2;
     padding: 5px;
-    margin-bottom: 0 !important;
+    
   } */
 
   .illustration-gallery {
+    margin-bottom: 0 !important;
     column-count: 2;
+    column-fill: auto;
+    display: block;
   }
   .illustration-container .illustration-gallery {
   margin-bottom: 0px;
