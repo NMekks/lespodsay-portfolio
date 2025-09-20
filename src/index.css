@@ -447,6 +447,10 @@ footer p {
     column-count: 2;
     padding: 5px;
     margin-bottom: 0 !important;
+
+    -webkit-column-fill: auto;
+    -moz-column-fill: auto;
+    column-fill: auto;
   }
   .illustration-container .illustration-gallery {
   margin-bottom: 0px;
