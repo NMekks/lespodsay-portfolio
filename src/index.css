@@ -458,6 +458,14 @@ footer p {
   .illustration-container .illustration-gallery {
     margin-bottom: 0px;
   }
+
+  .illustration-gallery .img {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 6px;
+  }
+
   #business-inquiries {
     margin: auto;
     margin-bottom: 10%;
