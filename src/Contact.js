@@ -41,11 +41,11 @@ export const Contact = () => {
             <div className="image-container">
                 <div className="contact-page-image">
                     <a
-                        href="img/magicalMiraiMiku2024.jpeg"
+                        href="img/magicalMiraiMiku2024.PNG"
                         data-lightbox="artwork"
                         data-title="Genshin Impact Xiao by Lespodsay"
                     >
-                        <img src="img/magicalMiraiMiku2024.png" />
+                        <img src="img/magicalMiraiMiku2024.PNG" />
                     </a>
                 </div>
             </div>
