@@ -1,17 +1,59 @@
 [
   {
-    "title": "Magical Mirai 2024 Hatsune Miku by Lespodsay",
-    "imagePath": "img/magicalMiraiMiku2024.jpeg",
-    "keywords": ["Vocaloid", "Hatsune Miku", "Magical Mirai"],
-    "caption": "Artwork of Magical Mirai 2024 Hatsune Miku by Lespodsay",
-    "alt": "Artwork of Magical Mirai 2024 Hatsune Miku by Lespodsay"
+    "title": "KHUX Strelitzia by Lespodsay",
+    "imagePath": "img/KHux Strelitzia.PNG",
+    "keywords": ["Kingdom Hearts", "Strelitzia", "khux"],
+    "caption": "Artwork of KHUX Strelitzia by Lespodsay",
+    "alt": "Artwork of KHUX Strelitzia by Lespodsay"
   },
   {
-    "title": "Kingdom Hearts Namine by Lespodsay",
-    "imagePath": "img/KH namine artpiece.jpeg",
-    "keywords": ["Kingdom Hearts", "Namine"],
-    "caption": "Kingdom Hearts Namine by Lespodsay",
-    "alt": "Artwork of Namine from Kingdom Hearts by Lespodsay"
+    "title": "KH 0.2 A Fragmentary Passage Aqua by Lespodsay",
+    "imagePath": "img/KH A Fragmentary Passage Aqua.PNG",
+    "keywords": ["Kingdom Hearts", "Wayfinder Trio", "Aqua"],
+    "caption": "KH 0.2 A Fragmentary Passage Aqua by Lespodsay",
+    "alt": "KH 0.2 A Fragmentary Passage Aqua by Lespodsay"
+  },
+  {
+    "title": "Hozier From Eden Charm Design by Lespodsay",
+    "imagePath": "img/Hozier From Eden Charm Design.JPG",
+    "keywords": ["Hozier", "From Eden", "Snake", "Mirror", "Swords", "Charm", "Keychain"],
+    "caption": "Hozier From Eden Charm Design by Lespodsay",
+    "alt": "Hozier From Eden Charm Design by Lespodsay"
+  },
+  {
+    "title": "Watercolour Birthday Card Link by Lespodsay",
+    "imagePath": "img/Birthday Card Link.JPG",
+    "keywords": ["The Legend of Zelda", "breath of the wild", "Link", "watercolour", "birthday", "card"],
+    "caption": "Watercolour Artwork Birthday Card Link by Lespodsay",
+    "alt": "Watercolour Artwork Birthday Card Link by Lespodsay"
+  },
+  {
+    "title": "Blond Superman, Seaweed Brain and Death King by Lespodsay",
+    "imagePath": "img/PJO artpiece.jpeg",
+    "keywords": ["Percy Jackson", "PJO", "HOO", "Heroes of Olympus", "Jason Grace", "Nico di Angelo"],
+    "caption": "Artwork of Jason Grace Blond Superman, Percy Jackson Seaweed Brain and Nico Di Angelo Death King by Lespodsay",
+    "alt": "Artwork of Jason Grace Blond Superman, Percy Jackson Seaweed Brain and Nico Di Angelo Death King by Lespodsay"
+  },
+  {
+    "title": "Kingdom Hearts 1 SoKai by Lespodsay",
+    "imagePath": "img/KH1 SoKai.PNG",
+    "keywords": ["Kingdom Hearts", "Sora", "Kairi", "Destiny Trio"],
+    "caption": "Artwork of Kingdom Hearts 1 SoKai by Lespodsay",
+    "alt": "Artwork of Kingdom Hearts 1 SoKai by Lespodsay"
+  },
+  {
+    "title": "Genshin Impact Mona by Lespodsay",
+    "imagePath": "img/Mona artpiece.jpeg",
+    "keywords": ["Genshin Impact", "Mona"],
+    "caption": "Artwork of Genshin Impact Mona by Lespodsay",
+    "alt": "Artwork of Genshin Impact Mona by Lespodsay"
+  },
+  {
+    "title": "Berserk Griffith by Lespodsay",
+    "imagePath": "img/Berserk griffith artpiece.jpeg",
+    "keywords": ["Berserk", "Griffith"],
+    "caption": "Berserk Griffith by Lespodsay",
+    "alt": "Berserk Griffith by Lespodsay"
   },
   {
     "title": "Commission for @kaleyvestal on instgram by Lespodsay",
@@ -21,18 +63,18 @@
     "alt": "Commission for @kaleyvestal on instgram by Lespodsay"
   },
   {
+    "title": "Magical Mirai 2024 Hatsune Miku by Lespodsay",
+    "imagePath": "img/magicalMiraiMiku2024.png",
+    "keywords": ["Vocaloid", "Hatsune Miku", "Magical Mirai"],
+    "caption": "Artwork of Magical Mirai 2024 Hatsune Miku by Lespodsay",
+    "alt": "Artwork of Magical Mirai 2024 Hatsune Miku by Lespodsay"
+  },
+  {
     "title": "Kingdom Hearts Kairi by Lespodsay",
     "imagePath": "img/KH kairi artpiece.jpeg",
     "keywords": ["Kingdom Hearts", "Kairi"],
     "caption": "Artwork of Kingdom Hearts Kairi by Lespodsay",
     "alt": "Artwork of Kingdom Hearts Kairi by Lespodsay"
-  },
-  {
-    "title": "Jujutsu Kaisen Gojo Satoru by Lespodsay",
-    "imagePath": "img/JJK gojo artpiece.jpeg",
-    "keywords": ["jjk", "Jujutsu Kaisen", "Gojo Satoru"],
-    "caption": "Artwork of Jujutsu Kaisen Gojo Satoru by Lespodsay",
-    "alt": "Artwork of Jujutsu Kaisen Gojo Satoru by Lespodsay"
   },
   {
     "title": "W.I.T.C.H. Will Vandom by Lespodsay",
@@ -49,25 +91,18 @@
     "alt": "Artwork of Kingdom Hearts Chibi Kairi by Lespodsay"
   },
   {
+    "title": "Jujutsu Kaisen Gojo Satoru by Lespodsay",
+    "imagePath": "img/JJK gojo artpiece.jpeg",
+    "keywords": ["jjk", "Jujutsu Kaisen", "Gojo Satoru"],
+    "caption": "Artwork of Jujutsu Kaisen Gojo Satoru by Lespodsay",
+    "alt": "Artwork of Jujutsu Kaisen Gojo Satoru by Lespodsay"
+  },
+  {
     "title": "Kingdom Hearts Aqua by Lespodsay",
     "imagePath": "img/KH Aqua.jpeg",
     "keywords": ["Kingdom Hearts", "Aqua", "Wayfinder Trio"],
     "caption": "Kingdom Hearts Aqua by Lespodsay",
     "alt": "Kingdom Hearts Aqua by Lespodsay"
-  },
-  {
-    "title": "Genshin Impact Xiao by Lespodsay",
-    "imagePath": "img/GENSHIN Xiao artpiece.jpeg",
-    "keywords": ["Genshin Impact", "Xiao"],
-    "caption": "Artwork of Genshin Impact Xiao by Lespodsay",
-    "alt": "Artwork of Genshin Impact Xiao by Lespodsay"
-  },
-  {
-    "title": "Kingdom Hearts Riku by Lespodsay",
-    "imagePath": "img/KH riku artpiece.jpeg",
-    "keywords": ["Kingdom Hearts", "Riku", "Destiny Trio"],
-    "caption": "Artwork of Kingdom Hearts Riku by Lespodsay",
-    "alt": "Artwork of Kingdom Hearts Riku by Lespodsay"
   },
   {
     "title": "Genshin Impact Layla by Lespodsay",
@@ -77,25 +112,11 @@
     "alt": "Artwork of Genshin Impact Layla by Lespodsay"
   },
   {
-    "title": "Blond Superman, Seaweed Brain and Death King by Lespodsay",
-    "imagePath": "img/PJO artpiece.jpeg",
-    "keywords": ["Percy Jackson", "PJO", "HOO", "Heroes of Olympus", "Jason Grace", "Nico di Angelo"],
-    "caption": "Artwork of Jason Grace Blond Superman, Percy Jackson Seaweed Brain and Nico Di Angelo Death King by Lespodsay",
-    "alt": "Artwork of Jason Grace Blond Superman, Percy Jackson Seaweed Brain and Nico Di Angelo Death King by Lespodsay"
-  },
-  {
-    "title": "Honorary Prince of Heart by Lespodsay",
-    "imagePath": "img/Honorary prince of heart artpiece.jpeg",
-    "keywords": ["Kingdom Hearts", "Wayfinder Trio", "Ventus", "Ven", "Honorary Prince of Heart"],
-    "caption": "Artwork of Honorary Prince of Heart by Lespodsay",
-    "alt": "Artwork of Kingdom Hearts Ventus Honorary Prince of Heart by Lespodsay"
-  },
-  {
-    "title": "Commission for @mevebrown_ on instgram by Lespodsay",
-    "imagePath": "img/Commission artpiece.jpeg",
-    "keywords": ["Commission"],
-    "caption": "Commission for @mevebrown_ on instgram by Lespodsay",
-    "alt": "Commission for @mevebrown_ on instgram by Lespodsay"
+    "title": "He's just Ken and he's Enough by Lespodsay",
+    "imagePath": "img/Kenough artpiece.jpeg",
+    "keywords": ["Barbie", "Ken", "He's just ken and he's enough"],
+    "caption": "He's just Ken and he's Enough by Lespodsay",
+    "alt": "He's just Ken and he's Enough by Lespodsay"
   },
   {
     "title": "Sora's Birthday Artwork by Lespodsay",
@@ -105,11 +126,39 @@
     "alt": "Artwork of Kingdom Hearts Sora's Birthday Artwork by Lespodsay"
   },
   {
+    "title": "Riku in Armour by Lespodsay",
+    "imagePath": "img/Riku in Armour.PNG",
+    "keywords": ["Kingdom Hearts", "Riku", "KH3", "Armour", "Armor"],
+    "caption": "Artwork of Kingdom Hearts 3 Riku in Armour by Lespodsay",
+    "alt": "Artwork of Kingdom Hearts 3 Riku in Armour by Lespodsay"
+  },
+  {
+    "title": "The Legend Of Zelda Link by Lespodsay",
+    "imagePath": "img/TLOZ link artpiece.jpeg",
+    "keywords": ["The Legend of Zelda", "Link", "tloz", "breath of the wild", "botw"],
+    "caption": "The Legend Of Zelda Link by Lespodsay",
+    "alt": "The Legend Of Zelda Link by Lespodsay"
+  },
+  {
+    "title": "Official Gimmick Games Artwork by Lespodsay",
+    "imagePath": "img/Gimmick Games Art.PNG",
+    "keywords": ["Pixel Art", "Gimmick Games", "Snake Game", "Space Invaders", "Game Website"],
+    "caption": "Official Artwork of Gimmick Games by Lespodsay",
+    "alt": "Official Artwork of Gimmick Games by Lespodsay"
+  },
+  {
     "title": "Genshin Impact Venti by Lespodsay",
     "imagePath": "img/GENSHIN venti artpiece.jpeg",
     "keywords": ["Genshin Impact", "Venti", "Barbados"],
     "caption": "Artwork of Genshin Impact Venti by Lespodsay",
     "alt": "Artwork of Genshin Impact Venti by Lespodsay"
+  },
+  {
+    "title": "Genshin Impact Xiao by Lespodsay",
+    "imagePath": "img/GENSHIN Xiao artpiece.jpeg",
+    "keywords": ["Genshin Impact", "Xiao"],
+    "caption": "Artwork of Genshin Impact Xiao by Lespodsay",
+    "alt": "Artwork of Genshin Impact Xiao by Lespodsay"
   },
   {
     "title": "Cardcaptor Sakura by Lespodsay",
@@ -119,11 +168,11 @@
     "alt": "Artwork of Cardcaptor Sakura by Lespodsay"
   },
   {
-    "title": "Genshin Impact Mona by Lespodsay",
-    "imagePath": "img/Mona artpiece.jpeg",
-    "keywords": ["Genshin Impact", "Mona"],
-    "caption": "Artwork of Genshin Impact Mona by Lespodsay",
-    "alt": "Artwork of Genshin Impact Mona by Lespodsay"
+    "title": "Barbie by Lespodsay",
+    "imagePath": "img/Barbie artpiece.jpeg",
+    "keywords": ["Barbie", "Beach"],
+    "caption": "Barbie by Lespodsay",
+    "alt": "Barbie by Lespodsay"
   },
   {
     "title": "Commission for @sonotsam on instagram by Lespodsay",
@@ -133,25 +182,25 @@
     "alt": "Commission for @sonotsam on instagram by Lespodsay"
   },
   {
-    "title": "Nutcracker Riku by Lespodsay",
-    "imagePath": "img/Nutcracker riku artpiece.jpeg",
-    "keywords": ["Kingdom Hearts", "Riku", "Destiny Trio", "Nutcracker Riku", "The Nutcracker"],
-    "caption": "Artwork of Nutcracker Riku by Lespodsay",
-    "alt": "Artwork of Kingdom Hearts Nutcracker Riku by Lespodsay design by rikuanti"
-  },
-  {
-    "title": "He's just Ken and he's Enough by Lespodsay",
-    "imagePath": "img/Kenough artpiece.jpeg",
-    "keywords": ["Barbie", "Ken", "He's just ken and he's enough"],
-    "caption": "He's just Ken and he's Enough by Lespodsay",
-    "alt": "He's just Ken and he's Enough by Lespodsay"
-  },
-  {
     "title": "Summer Namine by Lespodsay",
     "imagePath": "img/Summer Namine artpiece.jpeg",
     "keywords": ["Kingdom Hearts", "Namine", "Summer Namine"],
     "caption": "Artwork of Kingdom Hearts Summer Namine by Lespodsay",
     "alt": "Artwork of Kingdom Hearts Summer Namine by Lespodsay"
+  },
+  {
+    "title": "Kingdom Hearts Riku by Lespodsay",
+    "imagePath": "img/KH riku artpiece.jpeg",
+    "keywords": ["Kingdom Hearts", "Riku", "Destiny Trio"],
+    "caption": "Artwork of Kingdom Hearts Riku by Lespodsay",
+    "alt": "Artwork of Kingdom Hearts Riku by Lespodsay"
+  },
+  {
+    "title": "Nutcracker Riku by Lespodsay",
+    "imagePath": "img/Nutcracker riku artpiece.jpeg",
+    "keywords": ["Kingdom Hearts", "Riku", "Destiny Trio", "Nutcracker Riku", "The Nutcracker"],
+    "caption": "Artwork of Nutcracker Riku by Lespodsay",
+    "alt": "Artwork of Kingdom Hearts Nutcracker Riku by Lespodsay design by rikuanti"
   },
   {
     "title": "Namine Vision by Lespodsay",
@@ -175,11 +224,11 @@
     "alt": "Commission for @kaleyvestal on instgram by Lespodsay"
   },
   {
-    "title": "One Piece Perona by Lespodsay",
-    "imagePath": "img/OP perona artpiece.jpeg",
-    "keywords": ["One piece", "Perona"],
-    "caption": "Artwork of One Piece Perona by Lespodsay",
-    "alt": "Artwork of One Piece Perona by Lespodsay"
+    "title": "Kingdom Hearts Namine Halfbody by Lespodsay",
+    "imagePath": "img/KH Namine Halfbody.jpeg",
+    "keywords": ["Kingdom Hearts", "Namine", "Halfbody"],
+    "caption": "Kingdom Hearts Namine Halfbody by Lespodsay",
+    "alt": "Kingdom Hearts Namine by Lespodsay"
   },
   {
     "title": "15th Anniversary Hatsune Miku by Lespodsay",
@@ -189,25 +238,18 @@
     "alt": "15th Anniversary Hatsune Miku by Lespodsay"
   },
   {
-    "title": "Barbie by Lespodsay",
-    "imagePath": "img/Barbie artpiece.jpeg",
-    "keywords": ["Barbie", "Beach"],
-    "caption": "Barbie by Lespodsay",
-    "alt": "Barbie by Lespodsay"
+    "title": "Commission for @mevebrown_ on instgram by Lespodsay",
+    "imagePath": "img/Commission artpiece.jpeg",
+    "keywords": ["Commission"],
+    "caption": "Commission for @mevebrown_ on instgram by Lespodsay",
+    "alt": "Commission for @mevebrown_ on instgram by Lespodsay"
   },
   {
-    "title": "Berserk Griffith by Lespodsay",
-    "imagePath": "img/Berserk griffith artpiece.jpeg",
-    "keywords": ["Berserk", "Griffith"],
-    "caption": "Berserk Griffith by Lespodsay",
-    "alt": "Berserk Griffith by Lespodsay"
-  },
-  {
-    "title": "Kingdom Hearts Namine Halfbody by Lespodsay",
-    "imagePath": "img/KH Namine Halfbody.jpeg",
-    "keywords": ["Kingdom Hearts", "Namine", "Halfbody"],
-    "caption": "Kingdom Hearts Namine Halfbody by Lespodsay",
-    "alt": "Kingdom Hearts Namine by Lespodsay"
+    "title": "Kingdom Hearts Namine by Lespodsay",
+    "imagePath": "img/KH namine artpiece.jpeg",
+    "keywords": ["Kingdom Hearts", "Namine"],
+    "caption": "Kingdom Hearts Namine by Lespodsay",
+    "alt": "Artwork of Namine from Kingdom Hearts by Lespodsay"
   },
   {
     "title": "Commission for Mohammad on instgram by Lespodsay",
@@ -224,11 +266,18 @@
     "alt": "Commission for lolamak on instgram by Lespodsay"
   },
   {
-    "title": "The Legend Of Zelda Link by Lespodsay",
-    "imagePath": "img/TLOZ link artpiece.jpeg",
-    "keywords": ["The Legend of Zelda", "Link", "tloz", "breath of the wild", "botw"],
-    "caption": "The Legend Of Zelda Link by Lespodsay",
-    "alt": "The Legend Of Zelda Link by Lespodsay"
+    "title": "One Piece Perona by Lespodsay",
+    "imagePath": "img/OP perona artpiece.jpeg",
+    "keywords": ["One piece", "Perona"],
+    "caption": "Artwork of One Piece Perona by Lespodsay",
+    "alt": "Artwork of One Piece Perona by Lespodsay"
+  },
+  {
+    "title": "Honorary Prince of Heart by Lespodsay",
+    "imagePath": "img/Honorary prince of heart artpiece.jpeg",
+    "keywords": ["Kingdom Hearts", "Wayfinder Trio", "Ventus", "Ven", "Honorary Prince of Heart"],
+    "caption": "Artwork of Honorary Prince of Heart by Lespodsay",
+    "alt": "Artwork of Kingdom Hearts Ventus Honorary Prince of Heart by Lespodsay"
   },
   {
     "title": "Free Palestine artpiece by Lespodsay",

@@ -45,7 +45,7 @@ export const Contact = () => {
                         data-lightbox="artwork"
                         data-title="Genshin Impact Xiao by Lespodsay"
                     >
-                        <img src="img/magicalMiraiMiku2024.jpeg" />
+                        <img src="img/magicalMiraiMiku2024.png" />
                     </a>
                 </div>
             </div>
