@@ -18,7 +18,7 @@ main {
 
 a {
   text-decoration: none;
-  color: #4d717d;
+  color: #a3585c;
 }
 
 a:hover {
@@ -101,7 +101,7 @@ nav {
 
 .navbar-nav a {
   padding: 0 100px;
-  color: #4d717d;
+  color: #a3585c;
   transition: 0.4s;
   text-align: center;
   margin-left: 25px;
@@ -110,7 +110,7 @@ nav {
 
 .navbar-nav a:hover {
   text-decoration: underline;
-  color: #90acaf;
+  color: #e0a4a7;
 }
 
 nav ul {
@@ -155,7 +155,7 @@ nav ul {
 /*footer*/
 
 footer {
-  background: #789ca8;
+  background: #e0a4a7;
   color: rgb(247, 247, 247);
   display: flex;
   align-items: center;
@@ -169,7 +169,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #4d717d;
+  color: #a3585c;
 }
 
 footer h3 {
@@ -203,14 +203,14 @@ footer #social-media-footer ul li {
 }
 
 footer #social-media-footer ul li:hover a .fa-instagram {
-  color: #4d717d;
+  color: #a3585c;
 }
 
 footer #social-media-footer ul li:hover a .fa-tiktok {
-  color: #4d717d;
+  color: #a3585c;
 }
 footer #social-media-footer ul li:hover a .fa-x-twitter {
-  color: #4d717d;
+  color: #a3585c;
 }
 footer p {
   padding-bottom: 20px;
@@ -339,7 +339,7 @@ footer p {
 }
 
 .contact-form button {
-  background-color: #4d717d;
+  background-color: #a3585c;
   border-radius: 10px;
   border-color: transparent;
   font-size: 22px;
