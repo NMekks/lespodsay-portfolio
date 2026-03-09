@@ -257,6 +257,7 @@ footer p {
   width: 255px;
   height:340px;
   object-fit: cover;
+  object-position: right;
   border-radius: 5px;
 }
 
@@ -361,7 +362,9 @@ footer p {
 
 .contact-page-image img {
   width: 255px;
-  height: auto;
+  height: 344px;
+  object-fit: cover;
+  object-position: top left;
   border-radius: 10px;
   margin-left: 10%;
   margin-top: 3%;

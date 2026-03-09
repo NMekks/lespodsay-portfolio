@@ -40,13 +40,7 @@ export const Contact = () => {
           <div className="side-image">
             <div className="image-container">
                 <div className="contact-page-image">
-                    <a
-                        href="img/magicalMiraiMiku2024.PNG"
-                        data-lightbox="artwork"
-                        data-title="Genshin Impact Xiao by Lespodsay"
-                    >
-                        <img src="img/magicalMiraiMiku2024.PNG" />
-                    </a>
+                        <img src="img/self-portrait.png" />
                 </div>
             </div>
           </div>
