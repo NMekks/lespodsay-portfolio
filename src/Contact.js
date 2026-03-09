@@ -1,8 +1,24 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
   const form = useRef();
+
+  useEffect(() => {
+    const handleContextMenu = (e) => {
+      e.preventDefault();
+    }
+
+    // attach the event listener to 
+    // the document object
+    document.addEventListener("contextmenu", handleContextMenu);
+
+    // clean up the event listener when 
+    // the component unmounts
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu);
+    }
+  },[]);
 
   const sendEmail = (e) => {
     e.preventDefault();
