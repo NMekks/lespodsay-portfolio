@@ -35,7 +35,7 @@ const Footer = () => {
                 </ul>
                 </div>
                 <br />
-                <p>© Lespodsay, All Rights Reserved.</p>
+                <p>© 2026 Lespodsay, All Rights Reserved.</p>
             </div>
             </footer>
     );

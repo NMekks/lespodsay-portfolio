@@ -5,7 +5,7 @@ const About = () => {
             <h2>About Le Spodsay</h2>
             <div className='container about-page'>
                 <p>
-                Hello, I am Le Spodsay! I am a 23 year old computer engineering student 
+                Hello, I am Le Spodsay! I am a 24 year old computer engineer 
                 based in Istanbul, Turkey.
                 <br />My journey as an artist began when I was 2 years old
                 the day my pre-school teacher passed out a drawing journal, and I've been drawing ever since.
