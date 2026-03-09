@@ -1,10 +1,24 @@
 [
   {
-    "title": "KHUX Strelitzia by Lespodsay",
-    "imagePath": "img/KHux Strelitzia.PNG",
-    "keywords": ["Kingdom Hearts", "Strelitzia", "khux"],
-    "caption": "Artwork of KHUX Strelitzia by Lespodsay",
-    "alt": "Artwork of KHUX Strelitzia by Lespodsay"
+    "title": "Self-portrait",
+    "imagePath": "img/self-portrait.png",
+    "keywords": ["Self", "portrait", "spods"],
+    "caption": "Self-portrait of Spods by Lespodsay",
+    "alt": "Self-portrait of Spods by Lespodsay"
+  },
+  {
+    "title": "Riku in Armour by Lespodsay",
+    "imagePath": "img/Riku in Armour.PNG",
+    "keywords": ["Kingdom Hearts", "Riku", "KH3", "Armour", "Armor"],
+    "caption": "Artwork of Kingdom Hearts 3 Riku in Armour by Lespodsay",
+    "alt": "Artwork of Kingdom Hearts 3 Riku in Armour by Lespodsay"
+  },
+  {
+    "title": "TikTok Belle Portrait by Lespodsay",
+    "imagePath": "img/belle portrait on tiktok.png",
+    "keywords": ["tiktok", "belle", "portrait"],
+    "caption": "TikTok Belle Portrait by Lespodsay",
+    "alt": "TikTok Belle Portrait by Lespodsay"
   },
   {
     "title": "KH 0.2 A Fragmentary Passage Aqua by Lespodsay",
@@ -16,21 +30,43 @@
   {
     "title": "Hozier From Eden Charm Design by Lespodsay",
     "imagePath": "img/Hozier From Eden Charm Design.JPG",
-    "keywords": ["Hozier", "From Eden", "Snake", "Mirror", "Swords", "Charm", "Keychain"],
+    "keywords": [
+      "Hozier",
+      "From Eden",
+      "Snake",
+      "Mirror",
+      "Swords",
+      "Charm",
+      "Keychain"
+    ],
     "caption": "Hozier From Eden Charm Design by Lespodsay",
     "alt": "Hozier From Eden Charm Design by Lespodsay"
   },
   {
     "title": "Watercolour Birthday Card Link by Lespodsay",
     "imagePath": "img/Birthday Card Link.jpg",
-    "keywords": ["The Legend of Zelda", "breath of the wild", "Link", "watercolour", "birthday", "card"],
+    "keywords": [
+      "The Legend of Zelda",
+      "breath of the wild",
+      "Link",
+      "watercolour",
+      "birthday",
+      "card"
+    ],
     "caption": "Watercolour Artwork Birthday Card Link by Lespodsay",
     "alt": "Watercolour Artwork Birthday Card Link by Lespodsay"
   },
   {
     "title": "Blond Superman, Seaweed Brain and Death King by Lespodsay",
     "imagePath": "img/PJO artpiece.jpeg",
-    "keywords": ["Percy Jackson", "PJO", "HOO", "Heroes of Olympus", "Jason Grace", "Nico di Angelo"],
+    "keywords": [
+      "Percy Jackson",
+      "PJO",
+      "HOO",
+      "Heroes of Olympus",
+      "Jason Grace",
+      "Nico di Angelo"
+    ],
     "caption": "Artwork of Jason Grace Blond Superman, Percy Jackson Seaweed Brain and Nico Di Angelo Death King by Lespodsay",
     "alt": "Artwork of Jason Grace Blond Superman, Percy Jackson Seaweed Brain and Nico Di Angelo Death King by Lespodsay"
   },
@@ -56,18 +92,18 @@
     "alt": "Berserk Griffith by Lespodsay"
   },
   {
-    "title": "Commission for @kaleyvestal on instgram by Lespodsay",
-    "imagePath": "img/Commission artpiece 3.jpeg",
-    "keywords": ["Kaname Moniwa", "Haikyuu", "Commission"],
-    "caption": "Commission for @kaleyvestal on instgram by Lespodsay",
-    "alt": "Commission for @kaleyvestal on instgram by Lespodsay"
+    "title": "KHUX Strelitzia by Lespodsay",
+    "imagePath": "img/KHux Strelitzia.PNG",
+    "keywords": ["Kingdom Hearts", "Strelitzia", "khux"],
+    "caption": "Artwork of KHUX Strelitzia by Lespodsay",
+    "alt": "Artwork of KHUX Strelitzia by Lespodsay"
   },
   {
-    "title": "Magical Mirai 2024 Hatsune Miku by Lespodsay",
-    "imagePath": "img/magicalMiraiMiku2024.PNG",
-    "keywords": ["Vocaloid", "Hatsune Miku", "Magical Mirai"],
-    "caption": "Artwork of Magical Mirai 2024 Hatsune Miku by Lespodsay",
-    "alt": "Artwork of Magical Mirai 2024 Hatsune Miku by Lespodsay"
+    "title": "Genshin Impact Xiao by Lespodsay",
+    "imagePath": "img/GENSHIN Xiao artpiece.jpeg",
+    "keywords": ["Genshin Impact", "Xiao"],
+    "caption": "Artwork of Genshin Impact Xiao by Lespodsay",
+    "alt": "Artwork of Genshin Impact Xiao by Lespodsay"
   },
   {
     "title": "Kingdom Hearts Kairi by Lespodsay",
@@ -82,13 +118,6 @@
     "keywords": ["witch", "will vandom"],
     "caption": "Artwork of W.I.T.C.H. Will Vandom by Lespodsay",
     "alt": "Artwork of W.I.T.C.H. Will Vandom by Lespodsay"
-  },
-  {
-    "title": "Chibi Kairi by Lespodsay",
-    "imagePath": "img/Chibi Kairi artpiece.jpeg",
-    "keywords": ["Kingdom Hearts", "Destiny Trio", "Kairi"],
-    "caption": "Artwork of Kingdom Hearts Chibi Kairi by Lespodsay",
-    "alt": "Artwork of Kingdom Hearts Chibi Kairi by Lespodsay"
   },
   {
     "title": "Jujutsu Kaisen Gojo Satoru by Lespodsay",
@@ -112,11 +141,18 @@
     "alt": "Artwork of Genshin Impact Layla by Lespodsay"
   },
   {
-    "title": "He's just Ken and he's Enough by Lespodsay",
-    "imagePath": "img/Kenough artpiece.jpeg",
-    "keywords": ["Barbie", "Ken", "He's just ken and he's enough"],
-    "caption": "He's just Ken and he's Enough by Lespodsay",
-    "alt": "He's just Ken and he's Enough by Lespodsay"
+    "title": "Commission for @kaleyvestal on instgram by Lespodsay",
+    "imagePath": "img/Commission artpiece 3.jpeg",
+    "keywords": ["Kaname Moniwa", "Haikyuu", "Commission"],
+    "caption": "Commission for @kaleyvestal on instgram by Lespodsay",
+    "alt": "Commission for @kaleyvestal on instgram by Lespodsay"
+  },
+  {
+    "title": "Magical Mirai 2024 Hatsune Miku by Lespodsay",
+    "imagePath": "img/magicalMiraiMiku2024.png",
+    "keywords": ["Vocaloid", "Hatsune Miku", "Magical Mirai"],
+    "caption": "Artwork of Magical Mirai 2024 Hatsune Miku by Lespodsay",
+    "alt": "Artwork of Magical Mirai 2024 Hatsune Miku by Lespodsay"
   },
   {
     "title": "Sora's Birthday Artwork by Lespodsay",
@@ -126,25 +162,17 @@
     "alt": "Artwork of Kingdom Hearts Sora's Birthday Artwork by Lespodsay"
   },
   {
-    "title": "Riku in Armour by Lespodsay",
-    "imagePath": "img/Riku in Armour.PNG",
-    "keywords": ["Kingdom Hearts", "Riku", "KH3", "Armour", "Armor"],
-    "caption": "Artwork of Kingdom Hearts 3 Riku in Armour by Lespodsay",
-    "alt": "Artwork of Kingdom Hearts 3 Riku in Armour by Lespodsay"
-  },
-  {
     "title": "The Legend Of Zelda Link by Lespodsay",
     "imagePath": "img/TLOZ link artpiece.jpeg",
-    "keywords": ["The Legend of Zelda", "Link", "tloz", "breath of the wild", "botw"],
+    "keywords": [
+      "The Legend of Zelda",
+      "Link",
+      "tloz",
+      "breath of the wild",
+      "botw"
+    ],
     "caption": "The Legend Of Zelda Link by Lespodsay",
     "alt": "The Legend Of Zelda Link by Lespodsay"
-  },
-  {
-    "title": "Official Gimmick Games Artwork by Lespodsay",
-    "imagePath": "img/Gimmick Games Art.png",
-    "keywords": ["Pixel Art", "Gimmick Games", "Snake Game", "Space Invaders", "Game Website"],
-    "caption": "Official Artwork of Gimmick Games by Lespodsay",
-    "alt": "Official Artwork of Gimmick Games by Lespodsay"
   },
   {
     "title": "Genshin Impact Venti by Lespodsay",
@@ -154,11 +182,18 @@
     "alt": "Artwork of Genshin Impact Venti by Lespodsay"
   },
   {
-    "title": "Genshin Impact Xiao by Lespodsay",
-    "imagePath": "img/GENSHIN Xiao artpiece.jpeg",
-    "keywords": ["Genshin Impact", "Xiao"],
-    "caption": "Artwork of Genshin Impact Xiao by Lespodsay",
-    "alt": "Artwork of Genshin Impact Xiao by Lespodsay"
+    "title": "He's just Ken and he's Enough by Lespodsay",
+    "imagePath": "img/Kenough artpiece.jpeg",
+    "keywords": ["Barbie", "Ken", "He's just ken and he's enough"],
+    "caption": "He's just Ken and he's Enough by Lespodsay",
+    "alt": "He's just Ken and he's Enough by Lespodsay"
+  },
+  {
+    "title": "Chibi Kairi by Lespodsay",
+    "imagePath": "img/Chibi Kairi artpiece.jpeg",
+    "keywords": ["Kingdom Hearts", "Destiny Trio", "Kairi"],
+    "caption": "Artwork of Kingdom Hearts Chibi Kairi by Lespodsay",
+    "alt": "Artwork of Kingdom Hearts Chibi Kairi by Lespodsay"
   },
   {
     "title": "Cardcaptor Sakura by Lespodsay",
@@ -182,6 +217,19 @@
     "alt": "Commission for @sonotsam on instagram by Lespodsay"
   },
   {
+    "title": "Official Gimmick Games Artwork by Lespodsay",
+    "imagePath": "img/Gimmick Games Art.png",
+    "keywords": [
+      "Pixel Art",
+      "Gimmick Games",
+      "Snake Game",
+      "Space Invaders",
+      "Game Website"
+    ],
+    "caption": "Official Artwork of Gimmick Games by Lespodsay",
+    "alt": "Official Artwork of Gimmick Games by Lespodsay"
+  },
+  {
     "title": "Summer Namine by Lespodsay",
     "imagePath": "img/Summer Namine artpiece.jpeg",
     "keywords": ["Kingdom Hearts", "Namine", "Summer Namine"],
@@ -198,7 +246,13 @@
   {
     "title": "Nutcracker Riku by Lespodsay",
     "imagePath": "img/Nutcracker riku artpiece.jpeg",
-    "keywords": ["Kingdom Hearts", "Riku", "Destiny Trio", "Nutcracker Riku", "The Nutcracker"],
+    "keywords": [
+      "Kingdom Hearts",
+      "Riku",
+      "Destiny Trio",
+      "Nutcracker Riku",
+      "The Nutcracker"
+    ],
     "caption": "Artwork of Nutcracker Riku by Lespodsay",
     "alt": "Artwork of Kingdom Hearts Nutcracker Riku by Lespodsay design by rikuanti"
   },
@@ -219,7 +273,13 @@
   {
     "title": "Commission for @kaleyvestal on instgram by Lespodsay",
     "imagePath": "img/Commission artpiece 2.jpeg",
-    "keywords": ["Commission", "jjk", "Jujutsu Kaisen", "Itadori Yuuji", "Itadori Yuji"],
+    "keywords": [
+      "Commission",
+      "jjk",
+      "Jujutsu Kaisen",
+      "Itadori Yuuji",
+      "Itadori Yuji"
+    ],
     "caption": "Commission for @kaleyvestal on instgram by Lespodsay",
     "alt": "Commission for @kaleyvestal on instgram by Lespodsay"
   },
@@ -275,7 +335,13 @@
   {
     "title": "Honorary Prince of Heart by Lespodsay",
     "imagePath": "img/Honorary prince of heart artpiece.jpeg",
-    "keywords": ["Kingdom Hearts", "Wayfinder Trio", "Ventus", "Ven", "Honorary Prince of Heart"],
+    "keywords": [
+      "Kingdom Hearts",
+      "Wayfinder Trio",
+      "Ventus",
+      "Ven",
+      "Honorary Prince of Heart"
+    ],
     "caption": "Artwork of Honorary Prince of Heart by Lespodsay",
     "alt": "Artwork of Kingdom Hearts Ventus Honorary Prince of Heart by Lespodsay"
   },
@@ -289,7 +355,12 @@
   {
     "title": "Spiderman Across the Spiderverse SpiderGwen by Lespodsay",
     "imagePath": "img/SpiderGwen artpiece.jpeg",
-    "keywords": ["Spiderman", "Spidergwen", "Gwen Stacy", "Across the Spiderverse"],
+    "keywords": [
+      "Spiderman",
+      "Spidergwen",
+      "Gwen Stacy",
+      "Across the Spiderverse"
+    ],
     "caption": "Spiderman Across the Spiderverse SpiderGwen by Lespodsay",
     "alt": "Spiderman Across the Spiderverse SpiderGwen by Lespodsay"
   },

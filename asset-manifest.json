@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lespodsay-portfolio/static/css/main.caad060b.css",
-    "main.js": "/lespodsay-portfolio/static/js/main.a11d422d.js",
+    "main.css": "/lespodsay-portfolio/static/css/main.65937a76.css",
+    "main.js": "/lespodsay-portfolio/static/js/main.96d71c5f.js",
     "static/media/KHux Strelitzia Banner.PNG": "/lespodsay-portfolio/static/media/KHux Strelitzia Banner.b720f31a9066dcf8537e.PNG",
     "index.html": "/lespodsay-portfolio/index.html",
-    "main.caad060b.css.map": "/lespodsay-portfolio/static/css/main.caad060b.css.map",
-    "main.a11d422d.js.map": "/lespodsay-portfolio/static/js/main.a11d422d.js.map"
+    "main.65937a76.css.map": "/lespodsay-portfolio/static/css/main.65937a76.css.map",
+    "main.96d71c5f.js.map": "/lespodsay-portfolio/static/js/main.96d71c5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.caad060b.css",
-    "static/js/main.a11d422d.js"
+    "static/css/main.65937a76.css",
+    "static/js/main.96d71c5f.js"
   ]
 }

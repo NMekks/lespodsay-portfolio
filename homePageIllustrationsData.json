@@ -68,5 +68,12 @@
     "keywords": ["Kingdom Hearts", "Namine"],
     "caption": "Kingdom Hearts Namine by Lespodsay",
     "alt": "Artwork of Namine from Kingdom Hearts by Lespodsay"
+  },
+  {
+    "title": "Self-portrait",
+    "imagePath": "img/self-portrait.png",
+    "keywords": ["Self", "portrait", "spods"],
+    "caption": "Self-portrait of Spods by Lespodsay",
+    "alt": "Self-portrait of Spods by Lespodsay"
   }
 ]
