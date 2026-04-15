@@ -257,7 +257,7 @@ footer p {
   width: 255px;
   height:340px;
   object-fit: cover;
-  object-position: right;
+  object-position: center;
   border-radius: 5px;
 }
 
