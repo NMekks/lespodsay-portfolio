@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lespodsay-portfolio/static/css/main.65937a76.css",
+    "main.css": "/lespodsay-portfolio/static/css/main.adad89b7.css",
     "main.js": "/lespodsay-portfolio/static/js/main.d19839b9.js",
     "static/media/KHux Strelitzia Banner.PNG": "/lespodsay-portfolio/static/media/KHux Strelitzia Banner.b720f31a9066dcf8537e.PNG",
     "index.html": "/lespodsay-portfolio/index.html",
-    "main.65937a76.css.map": "/lespodsay-portfolio/static/css/main.65937a76.css.map",
+    "main.adad89b7.css.map": "/lespodsay-portfolio/static/css/main.adad89b7.css.map",
     "main.d19839b9.js.map": "/lespodsay-portfolio/static/js/main.d19839b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.65937a76.css",
+    "static/css/main.adad89b7.css",
     "static/js/main.d19839b9.js"
   ]
 }
